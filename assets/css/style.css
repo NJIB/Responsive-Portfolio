@@ -181,6 +181,7 @@ textarea:focus{
     position: absolute;
     width: 90%;
     margin-left: 20px;   
+    margin-right: 20px;
     color: #777777;
 }
 
@@ -266,6 +267,9 @@ form {
     .app-descriptor-text{left: 25px}
     .grid-item{padding: 10px;}
     .grid-container{line-height: 22px;}
+    #LinkedInIMG{height: 38px; width: 150px}
+    #vwmffIMG{height: 53px; width: 150px}
+    #twitterIMG{height: 53px; width: 150px}
 }
 
 
@@ -287,6 +291,9 @@ form {
     img{height: 190px;}
     .grid-item{padding: 10px;}
     .grid-container{line-height: 22px;}
+    #LinkedInIMG{height: 38px; width: 150px}
+    #vwmffIMG{height: 53px; width: 150px}
+    #twitterIMG{height: 53px; width: 150px}
 }
 
 @media screen and (max-width: 639px){
@@ -325,5 +332,8 @@ form {
     #main-bio{font-size: 12px;}
     #main-bio{line-height: 15px;}
     input{margin-left: 20px;}
+    #LinkedInIMG{height: 38px; width: 150px}
+    #vwmffIMG{height: 53px; width: 150px}
+    #twitterIMG{height: 53px; width: 150px}
 }
 
