@@ -33,20 +33,20 @@
                 <div id="thingreyline"></div>
                 <br />
 
-                <form action="">
+                <form action="mailto:njibuck@gmail.com" method="get" enctype="text/plain">
                     Name:
                     <br>
-                    <input type="text" name="FirstName" placeholder="John Smith">
+                    <input id="senderName" type="text" name="senderName" placeholder="John Smith">
                     <br> <br>
                     Email:
                     <br>
-                    <input type="text" name="LastName" placeholder="example@gmail.com">
+                    <input id="senderEmail" type="text" name="senderEMail" placeholder="example@gmail.com">
                     <br> <br>
                     Message:
                     <br>
-                    <textarea name="Message" placeholder="Write something..." style="height:200px"></textarea>
+                    <textarea id="senderMessage" name="Message" placeholder="Write something..." style="height:200px"></textarea>
                     <br> <br>
-                    <input type="submit" value="Submit">
+                    <input id="submitBtn" type="submit" href="mailto:email@example.com?subject=Mail from our Website" value="Submit">
                 </form>
 
             </section>
@@ -57,7 +57,6 @@
     <footer>
         Copyright &copy;
     </footer>
-
 
 </body>
 
