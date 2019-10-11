@@ -233,9 +233,9 @@ textarea:focus{
 .app-descriptor-text{
     display: block;
     position: relative;
-    margin-left: 10px;
-    bottom: 60px;
-    width: 240px;
+    margin-left: 13px;
+    bottom: 100px;
+    width: 239px;
     height: 30px;
     color: #ffffff;
     background-color: #4aaaa5;
@@ -269,7 +269,7 @@ form {
 
 @media screen and (max-width: 979px){
     .container{width: 95%;}
-    .container{height: 1050px}
+    .container{height: 1200px}
     .container{padding: 5px;}
     .container{margin: 100px 20px 20px 20px;}
     #thingreyline{width: 95%;}
@@ -277,7 +277,7 @@ form {
     #bio-text{width 100%;}
     .portfolio-grid-container{width: 650px;}
     .portfolio-grid-container{grid-template-columns: auto auto;}
-    .app-descriptor-text{left: 25px}
+    .app-descriptor-text{left: 25px; margin-left: -20px; bottom: 60px}
     .grid-item{padding: 10px;}
     .grid-container{line-height: 22px;}
     #bio-links{position: absolute; bottom: -150px;}
@@ -299,8 +299,7 @@ form {
     #bio-text{width 100%;}
     .portfolio-grid-container{width: 650px;}
     .portfolio-grid-container{grid-template-columns: auto auto;}
-    .app-descriptor-text{left: 50px}
-    .app-descriptor-text{width: 190px}
+    .app-descriptor-text{left: 20px; width: 190px; bottom: 60px}
     img{width: 190px;}
     img{height: 190px;}
     .grid-item{padding: 10px;}
@@ -309,6 +308,7 @@ form {
     #LinkedInIMG{height: 25px; width: 100px}
     #vwmffIMG{height: 35px; width: 100px}
     #twitterIMG{height: 35px; width: 100px}
+    .github-icon{height: 50px; width: 50px}
 }
 
 @media screen and (max-width: 639px){
@@ -340,7 +340,7 @@ form {
     .grid-item{width: 100%;}
     .grid-item{padding: 2px;}
     .app-descriptor-text{width: 150px}
-    .app-descriptor-text{left: 45px}
+    .app-descriptor-text{left: 75px}
     .app-descriptor-text{bottom: 40px}
     .app-descriptor-text{height: 20px}
     img{width: 150px;}
@@ -352,5 +352,6 @@ form {
     #LinkedInIMG{height: 25px; width: 100px}
     #vwmffIMG{height: 35px; width: 100px}
     #twitterIMG{height: 35px; width: 100px}
+    .github-icon{height: 50px; width: 50px}
 }
 
